@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $eerie-black;
+    font-family: $roboto;
+}
+
+.nav-link {
+    color: $white;
+   
+    &:hover {
+        color: $spanish-pink;
+    }
+}
+
+.fa-bars {
+    color: $white;
+}
+
+.navbar-brand-img {
+    width: 3em;
+}

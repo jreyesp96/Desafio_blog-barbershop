@@ -1,0 +1,14 @@
+/*Mixins*/
+@mixin botones {
+  border-radius: 40px;
+  border: none;
+  background-color: $nickel;
+  color: $white;
+  font-size: 14px;
+  padding: 0.5em;
+
+  &:hover {
+      background-color: $light-gray;
+      color: $white;
+  }
+}

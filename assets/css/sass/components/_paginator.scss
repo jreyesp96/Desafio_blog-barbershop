@@ -1,0 +1,48 @@
+.paginator {
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+
+  &__item:first-child &__link {
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    margin-left: 0;
+
+  }
+
+  &__item:last-child &__link {
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    margin-left: 0;
+
+  }
+
+  &__item.--active &__link {
+    background-color: $raisin-black;
+    border-color: $raisin-black;
+    color: $white;
+    z-index: 1;
+  }
+  &__link {
+    background-color: $white;
+    border: 1px solid $light-gray;
+    color: $eerie-black;
+    display: block;
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $regular;
+    line-height: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+    text-decoration: none;
+  }
+  &__link:hover {
+    color: $nickel;
+    text-decoration: none;
+  }
+}
+
+.navigation-pages{
+  background-color: $platinum;
+  padding: 42px;
+}

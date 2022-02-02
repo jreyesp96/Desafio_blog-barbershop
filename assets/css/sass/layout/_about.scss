@@ -1,0 +1,35 @@
+.about_section{
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+}
+
+.img-naomi {
+    width: 8.125em;
+}
+
+.about_section__row_col-author {
+    color: $eerie-black;
+    font-family: $playfair-display;
+    font-size: $x-large;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.about_section__row_col-author-links {
+    font-weight: $light;
+    font-family: $roboto;
+    font-size: $medium;
+    color: $ruddy-pink;
+    text-decoration: none!important;
+
+    &:hover {
+        color: $raisin-black;
+    }
+}
+
+.about_section__div-description {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: 14px;
+}
+

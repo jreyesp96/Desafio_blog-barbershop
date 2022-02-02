@@ -1,0 +1,26 @@
+.header {
+  height: 100vh;
+  background-image: url('../img/post-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  a {
+      bottom: 5%;
+      position: absolute;
+ }
+
+}
+
+h1 {
+  font-family: $playfair-display;
+  font-size: 40px;
+  font-weight: $black;
+  font-style: italic;
+  color: $white;
+}
+
+p {
+  text-align: justify;
+}
+
